@@ -1,0 +1,138 @@
+p{
+	font-family: 'Fredoka', sans-serif;
+}
+
+body{
+	margin: 0;
+	font-family: 'Fredoka', sans-serif;
+	background-color: #CAF0F8;
+	font-size: 16px;
+	line-height: 30px;
+	/*text-align:center;*/
+	
+}
+h1{
+	text-align:center;
+	font-weight: bold ;
+}
+header{
+	/*margin: 0px;*/
+	background-color: #00B4D8;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	float: none;
+}
+header img{
+	border-radius: 170px;
+	width: 300px;
+	border: 20px solid #FFF1CE;
+}
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 20px;
+/*	border: 400px black;*/
+	background-color: #CAF0F8;
+}
+a{
+	text-decoration: none;
+}
+#headerr{
+	width: 100%;
+	height: 40px;
+	/*background-color: aqua;*/
+
+}
+.headerr{
+	width: 1200px;
+	height: 40px;
+	/*background-color: greenyellow;*/
+	/*定义边框*/
+	/*border: 1px solid red;*/
+}
+.headerr_left{
+	width: 600px;
+	height: 60px;
+	/*background-color: black;*/
+	float: left;
+}
+
+}
+.headerr_right{
+	width:200px ;
+	height: 60px;
+	background-color: grey;
+	float: right;
+
+}
+/*设置header字体样式*/
+.headerr_left>div>span{
+	/*float: left;*/
+	/*background-color: hotpink;*/
+	position: absolute;
+	left: 30px;
+	line-height: 60px;
+	font-size: 50px;
+	font-weight: bold;
+	color: #03045E;
+}
+
+
+.headerr_right>div:nth-child(1)>a,.headerr_right>div:nth-child(1)>a>img{
+	/*float: left;*/
+	position: absolute;
+	left: 600px;
+	line-height: 60px;
+	color: #03045E;
+	font-weight: bold;
+	font-size: 25px;
+}
+/*why i cantnot change the navigator color when i click*/
+/*.headerr_right>div:nth-child(1)>a: hover{
+	background-color: black;
+	color: white;
+}*/
+.headerr_right>div:nth-child(1)>a>img{
+	position: relative;
+	left: 10px;
+	top: 5px;
+	width: 30px;
+}
+
+.headerr_right>div:nth-child(2),.headerr_right>div:nth-child(2)>a>img{
+	/*float: right;*/
+	position: absolute;
+	left: 1000px;
+	line-height: 60px;
+	font-weight: bold;
+	color: #03045E;
+	font-weight: bold;
+	font-size: 25px;
+
+}
+.headerr_right>div:nth-child(2)>a>img{
+	position: relative;
+	left: 5px;
+	top: 5px;
+	width: 30px;
+}
+
+.taxonomyimage{
+	width: 600px;
+	height: 150px;
+}
+.taxonomyimage>img{
+	/*1张图片水平居中*/
+/*	position: absolute;
+	left: 50%;
+	transform: translate(-50%,-50%);*/
+	width: 200px;
+	height: 150px;
+	float: left;
+
+}
+footer{
+	text-align:center;
+}
